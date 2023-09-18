@@ -12,11 +12,11 @@ Set alarms effortlessly and never miss a beat with web-based alarm clock
 
 # PRODUCT DEMO
 
-[Alarm-Clock]<img src="img_of_clock.png">   <br>
+[Alarm-Clock]<img src="img_of_clock.jpg">   <br>
 
 # LINKS
 
-<a href = "https://pralay2605q.github.io/Alarm-Clock/"> <b>LIVE PRODUCT</b> </a>  &nbsp; <a href = "https://github.com/aniruddh-joshi/Project-AlarmClock"> <b>CODE</b> </a> <br>
+<a href = "https://aniruddh-joshi.github.io/Project-AlarmClock/"> <b>LIVE PRODUCT</b> </a>  &nbsp; <a href = "https://github.com/aniruddh-joshi/Project-AlarmClock"> <b>CODE</b> </a> <br>
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 <br>
