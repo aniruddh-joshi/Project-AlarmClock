@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="alarm.css">
+    <link rel="icon" href="data:image/png;base64,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">
+    
+</head>
+<body onload="initClock()">
+
+    <div class="container">
+
+    <!-- Analog Clock -->
+    <div class="clock">
+        <div class="number" style="--n:1"><b>1</b></div>
+        <div class="number" style="--n:2"><b>2</b></div>
+        <div class="number" style="--n:3"><b>3</b></div>
+        <div class="number" style="--n:4"><b>4</b></div>
+        <div class="number" style="--n:5"><b>5</b></div>
+        <div class="number" style="--n:6"><b>6</b></div>
+        <div class="number" style="--n:7"><b>7</b></div>
+        <div class="number" style="--n:8"><b>8</b></div>
+        <div class="number" style="--n:9"><b>9</b></div>
+        <div class="number" style="--n:10"><b>10</b></div>
+        <div class="number" style="--n:11"><b>11</b></div>
+        <div class="number" style="--n:12"><b>12</b></div>
+
+        <div class="hour-hand" id="hour-hand"></div>
+        <div class="minute-hand" id="minute-hand"></div>
+        <div class="second-hand" id="second-hand"></div>
+        <div class="center-dot" id="center-dot"></div>
+    </div>
+<!-------------------------------------------------------------->
+
+    <!-- Digital Clock
+    <div  id = "ytime">
+
+        <div id = "yhours" style="--clr:#ff2972;">00</div>
+        <div id = "yminutes" style="--clr:#fee800;">00</div>
+        <div id = "yseconds" style="--clr:#04fc43;">00</div>
+        <div id = "yampm">AM</div>
+  
+    </div>
+    -->
+    <!----------------------------------------------------------------->
+</div>
+
+
+    <!--Alarm Clock -->
+    <div class="alarm">
+
+        <div class="datetime">
+            <div class="date">
+                <div id="alarmclock" >ALARM CLOCK</div>
+                <span id="dayName">Day</span>,
+                <span id="month">Month</span>,
+                <span id="dayNum">00</span>,
+                <span id="year">Year</span>
+            </div>
+            <div class="time">
+                <span id="hour">00</span>:
+                <span id="minutes">00</span>:
+                <span id="seconds">00</span>:
+                <span id="period">AM</span>
+            </div>
+            <button id="stopAlarm" onclick="stopAlarm()">Stop Alarm</button>
+        </div>
+
+        <hr>
+
+        <div class="setAlarm">
+
+            <div class="column">
+                <select>
+                    <option value="setHour" selected hidden>Hour</option>
+                </select>
+            </div>
+
+            <div class="column">
+                <select>
+                    <option value="setMinute" selected hidden>Minute</option>
+                    
+                </select>
+            </div>
+
+            <div class="column">
+                <select>
+                    <option value="setSeconds" selected hidden>Seconds</option>
+                    
+                </select>
+            </div>
+
+            <div class="column">
+                <select>
+                    <option value="AM/PM" selected hidden>AM/PM</option>
+                </select>
+            </div>
+
+            <button id="btn-setAlarm" type="submit">Set Alarm</button>
+            
+        </div>
+
+        <hr>
+
+        <h3 id="alarm-h3"></h3>
+
+        <div class="alarmList"></div>
+  
+    </div>
+
+    <!--------------------------------------------------------------->
+    
+
+    <script type="text/javascript" src="alarm.js"></script>
+</body>
+</html>
